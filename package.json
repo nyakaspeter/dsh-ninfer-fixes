@@ -1,0 +1,50 @@
+{
+  "name": "dsh-ninfer-fixes",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "index.js",
+  "exports": "./index.js",
+  "files": [
+    "index.js",
+    "README.md",
+    "test",
+    "VALIDATION.txt",
+    "cordis.patch.yml",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "peerDependencies": {
+    "@deepseek-ai/dsh-llm": "*",
+    "@deepseek-ai/dsh-compaction-image-offload": "*"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@earendil-works/pi-ai": "1.1.0",
+    "@deepseek-ai/cordis": "4.0.5",
+    "@deepseek-ai/dsh-llm": "0.2.1-rc.2",
+    "@deepseek-ai/dsh-llm-pi-ai": "0.2.1-rc.2",
+    "@deepseek-ai/dsh-compaction-image-offload": "0.2.1-rc.2",
+    "@deepseek-ai/dsh-app-boot": "0.2.1-rc.2"
+  },
+  "peerDependenciesMeta": {
+    "@deepseek-ai/dsh-compaction-image-offload": {
+      "optional": true
+    }
+  },
+  "description": "Focused NInfer fixes for DeepSeek Harness, starting with bounded vision-budget recovery through official image offload",
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nyakaspeter/dsh-ninfer-fixes.git"
+  },
+  "homepage": "https://github.com/nyakaspeter/dsh-ninfer-fixes#readme",
+  "bugs": {
+    "url": "https://github.com/nyakaspeter/dsh-ninfer-fixes/issues"
+  }
+}

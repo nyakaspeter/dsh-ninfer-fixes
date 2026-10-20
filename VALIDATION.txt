@@ -1,0 +1,19 @@
+✔ exact NInfer signature and supported HTTP formatting (0.438292ms)
+✔ reject unrelated HTTP, media, context, malformed and incomplete failures (0.090125ms)
+✔ official handoff persists one oldest omission and preserves newest (1.964625ms)
+✔ terminates at bound and without official executor (1.015375ms)
+✔ does not intercept other routes or unrelated errors; new step resets bound (1.107417ms)
+✔ installed pi-ai adapter HTTP mock -> real Cordis -> official offload (53.382ms)
+✔ retry without durable progress terminates immediately (0.344542ms)
+✔ already omitted images are skipped by the official selector (0.321792ms)
+✔ reject invalid configuration (0.089333ms)
+✔ GitHub bundle default needs no provider names (0.491917ms)
+✔ installed DSH accepts bundle metadata, patch and broad version requirements (11.727083ms)
+ℹ tests 11
+ℹ suites 0
+ℹ pass 11
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 143.287333
